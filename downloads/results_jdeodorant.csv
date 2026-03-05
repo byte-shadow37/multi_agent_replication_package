@@ -1,0 +1,61 @@
+Model,File,Clone Method,Clone Type,Deckard Detect,Compile,Test,Usefulness,Precondition Violation
+Jdeodorant,helper.java,getDrawingView,Type 2(b),Yes,Yes,Yes,Yes,no
+Jdeodorant,drawapplet,init,Type 1(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,FigureAttributeConstant,addConstant,Type 1(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,drawapplet,createAttributeConstant,Type 1(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,nothingapplet,createTools,Type 1(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,CompositeFigureCreationTool,mouseDown,Type 1(b),Yes,Yes,Yes,Yes,no
+Jdeodorant,ChopDiamondConnector,chop,Type 1(b),Yes,Yes,Yes,Yes,no
+Jdeodorant,MiniMapDesktop,createLeftComponent,Type 1(b),Yes,Yes,Yes,Yes,no
+Jdeodorant,Animator,run,Type 1(b),Yes,Yes,Yes,Yes,no
+Jdeodorant,CTXWindowMenu,buildChildMenus,Type 1(c),Yes,Yes,Yes,Yes,no
+Jdeodorant,ColorMap,colorIndex,Type 1(c),Yes,Yes,Yes,Yes,no
+Jdeodorant,BouncingDrawing,animationStep,Type 1(c),Yes,Yes,Yes,Yes,no
+Jdeodorant,PertDependency,handleConnect,Type 1(c),Yes,Yes,Yes,Yes,no
+Jdeodorant,AutoscrollHelper,getAutoscrollInsets,Type 2(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,Geom ,direction,Type 2(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,JHDDropTargetListener,dragOver,Type 2(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,StandardLayouter,layout,Type 2(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,LineConnection,basicMoveBy,Type 2(b),Yes,Yes,Yes,Yes,no
+Jdeodorant,Triangle Figure,rotate,Type 2(b),Yes,Yes,Yes,Yes,no
+Jdeodorant,SplitPaneDesktop,removeFromDesktop,Type 2(b),Yes,Yes,Yes,Yes,no
+Jdeodorant,DNDHelper,createDragGestureRecognizer,Type-3(e),no,,,,
+Jdeodorant,DragNDropTool,setCursor,Type-3(c),no,,,,
+Jdeodorant,JHDDragSourceListener,dragEnter,Type-3(e),Yes,,,,Yes
+Jdeodorant,ColorContentProducer,read,Type-3(c),no,,,,
+Jdeodorant,CustomToolBar,activateTools,Type-3(d),no,,,,
+Jdeodorant,FloatingTextArea,endOverlay,Type-3(c),Yes,Yes,Yes,Yes,no
+Jdeodorant,MiniMapView,paint,Type-3(c),no,,,,
+Jdeodorant,PolygonFigure,basicDisplayBox,Type-3(c),Yes,,,,
+Jdeodorant,SimpleLayouter,calculateLayout,Type-3(c),no,,,,
+Jdeodorant,DragTracker,mouseDrag,Type-3(e),no,,,,
+Jdeodorant,JPanelDesktop,createContents,Type-3(a),no,,,,
+Jdeodorant,MDI_DrawApplication,newView,Type-3(a),no,,,,
+Jdeodorant,PolygonTool,deactivate,Type-3(a),no,,,,
+Jdeodorant,SVGStorageFormat,store,Type-3(a),no,,,,
+Jdeodorant,TriangleRotationHandle,getOrigin,Type-3(d),Yes,,,,Yes
+Jdeodorant,ElbowHandle,invokeStep,Type-3(d),Yes,,,,Yes
+Jdeodorant,ScribbleTool,point,Type-2(c),no,,,,
+Jdeodorant,URLTool,beginEdit,Type-3(b),no,,,,
+Jdeodorant,NodeFigure,drawBorder,Type-3(b),no,,,,
+Jdeodorant,PertFigure,drawBorder,Type-3(b),no,,,,
+Jdeodorant,BufferedUpdateStrategy,draw,Type-2(d),no,,,,
+Jdeodorant,ChangeConnectionHandle,findConnectableFigure,Type-3(b),no,,,,
+Jdeodorant,FigureAndEnumerator,nextFigure,Type-1(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,HandleAndEnumerator,nextHandle,Type-1(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,LocatorConnector,displayBox,Type-1(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,LocatorHandle,getCursor,Type-1(b),Yes,Yes,Yes,Yes,no
+Jdeodorant,StandardFigureSelection,getData,Type-1(b),Yes,Yes,Yes,Yes,no
+Jdeodorant,ToggleGridCommand,execute,Type-1(c),Yes,Yes,Yes,Yes,no
+Jdeodorant,CommandMenu,actionPerformed,Type-2(d),Yes,Yes,Yes,Yes,no
+Jdeodorant,PaletteLayout,layoutContainer,Type-2(c),Yes,,,,Yes
+Jdeodorant,SerializationStorageFormat,restore,Type-1(c),Yes,Yes,Yes,Yes,no
+Jdeodorant,StandardVersionControlStrategy,assertCompatibleVersion,Type-1(c),Yes,Yes,Yes,Yes,no
+Jdeodorant,RoundRectangleGeometricAdapter,getShape,Type-2(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,ScalingGraphics,scaledShape,Type-2(d),no,,,,
+Jdeodorant,ZoomDrawingView,setScale,Type-2(d),no,,,,
+Jdeodorant,CTXCommandMenu,checkEnabled,Type-2(a),Yes,Yes,Yes,Yes,Yes
+Jdeodorant,MySelectionTool,mouseDown,Type-2(b),Yes,no,,,no
+Jdeodorant,PatternPainter,drawPattern,Type-2(c),Yes,,,,Yes
+Jdeodorant,SelectAreaTracker,drawXORRect,Type-2(a),Yes,Yes,Yes,Yes,no
+Jdeodorant,Bounds,intersectsBounds,Type-2(a),Yes,Yes,Yes,Yes,no
